@@ -6,3 +6,8 @@ port sequencer where the first event is for switching a relay and the last two e
 
 The unit is based around an Arduino UNO see the .ino file for the script, it uses one no standard library which is
 called Bounce2 and be downloaded from https://github.com/thomasfredericks/Bounce2
+
+The unit has also been designed so that when the VSWR trip is pulled to ground the unit goes into a disabled state
+stopping the transmitter from transmitting until the unit is reset. 
+
+There are two board the main board and an indicator board.  
