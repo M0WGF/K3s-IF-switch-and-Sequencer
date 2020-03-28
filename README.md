@@ -13,5 +13,5 @@ stopping the transmitter and sounding a buzzer until the unit is reset.
 There are two boards the main board and an indicator board.  
 
 
-For further detaisl see : 
+For further details see : 
 https://m0wgf.blogspot.com/2019/12/dual-transverter-if-switch-and.html 
