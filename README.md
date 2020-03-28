@@ -8,6 +8,6 @@ The unit is based around an Arduino UNO see the .ino file for the script, it use
 called Bounce2 and be downloaded from https://github.com/thomasfredericks/Bounce2
 
 The unit has also been designed so that when the VSWR trip is pulled to ground the unit goes into a disabled state
-stopping the transmitter from transmitting until the unit is reset. 
+stopping the transmitter and sounding a buzzer until the unit is reset. 
 
 There are two board the main board and an indicator board.  
