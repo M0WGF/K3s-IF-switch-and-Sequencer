@@ -1,0 +1,598 @@
+EESchema Schematic File Version 4
+LIBS:K3S_Seq_IF_Front_Panel-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5DD43993
+P 3300 2550
+F 0 "D1" H 3293 2295 50  0000 C CNN
+F 1 "Power" H 3293 2386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3300 2550 50  0001 C CNN
+F 3 "~" H 3300 2550 50  0001 C CNN
+	1    3300 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DD44DDC
+P 3300 3550
+F 0 "D2" H 3293 3295 50  0000 C CNN
+F 1 "Band 0" H 3293 3386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3300 3550 50  0001 C CNN
+F 3 "~" H 3300 3550 50  0001 C CNN
+	1    3300 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5DD460E3
+P 3300 4500
+F 0 "D3" H 3293 4245 50  0000 C CNN
+F 1 "Band 1" H 3293 4336 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3300 4500 50  0001 C CNN
+F 3 "~" H 3300 4500 50  0001 C CNN
+	1    3300 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5DD46A2B
+P 3350 5500
+F 0 "D4" H 3343 5245 50  0000 C CNN
+F 1 "Band 2" H 3343 5336 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3350 5500 50  0001 C CNN
+F 3 "~" H 3350 5500 50  0001 C CNN
+	1    3350 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5DD4759E
+P 5850 2550
+F 0 "D5" H 5843 2295 50  0000 C CNN
+F 1 "Band 0 Event 1" H 5843 2386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5850 2550 50  0001 C CNN
+F 3 "~" H 5850 2550 50  0001 C CNN
+	1    5850 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5DD4913D
+P 5850 3550
+F 0 "D6" H 5843 3295 50  0000 C CNN
+F 1 "Band 0 Event 2" H 5843 3386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5850 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5DD49739
+P 5850 4500
+F 0 "D7" H 5843 4245 50  0000 C CNN
+F 1 "Band 0 Event 3" H 5843 4336 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5850 4500 50  0001 C CNN
+F 3 "~" H 5850 4500 50  0001 C CNN
+	1    5850 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5DD49831
+P 8650 5500
+F 0 "D12" H 8643 5245 50  0000 C CNN
+F 1 "Tx Inhibit" H 8643 5336 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 5500 50  0001 C CNN
+F 3 "~" H 8650 5500 50  0001 C CNN
+	1    8650 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5DD4B26E
+P 8650 2550
+F 0 "D9" H 8643 2295 50  0000 C CNN
+F 1 "Band 1 Event 1" H 8643 2386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 2550 50  0001 C CNN
+F 3 "~" H 8650 2550 50  0001 C CNN
+	1    8650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5DD4B841
+P 8650 3550
+F 0 "D10" H 8643 3295 50  0000 C CNN
+F 1 "Band 1 Event 2" H 8643 3386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 3550 50  0001 C CNN
+F 3 "~" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5DD4BF53
+P 8650 4550
+F 0 "D11" H 8643 4295 50  0000 C CNN
+F 1 "Band 1 Event 3" H 8643 4386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 4550 50  0001 C CNN
+F 3 "~" H 8650 4550 50  0001 C CNN
+	1    8650 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5DD84FAD
+P 2850 6300
+F 0 "BZ1" H 3002 6329 50  0000 L CNN
+F 1 "VSWR Trip Buzzer" H 3002 6238 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 2825 6400 50  0001 C CNN
+F 3 "~" V 2825 6400 50  0001 C CNN
+	1    2850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DD85BF7
+P 5650 6300
+F 0 "SW1" H 5650 6585 50  0000 C CNN
+F 1 "RESET SW" H 5650 6494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5650 6500 50  0001 C CNN
+F 3 "~" H 5650 6500 50  0001 C CNN
+	1    5650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5DD97D22
+P 5850 6300
+F 0 "#PWR012" H 5850 6050 50  0001 C CNN
+F 1 "GND" H 5855 6127 50  0000 C CNN
+F 2 "" H 5850 6300 50  0001 C CNN
+F 3 "" H 5850 6300 50  0001 C CNN
+	1    5850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DDFAC44
+P 8150 2550
+F 0 "R6" V 7943 2550 50  0000 C CNN
+F 1 "360" V 8034 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8080 2550 50  0001 C CNN
+F 3 "~" H 8150 2550 50  0001 C CNN
+	1    8150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DDFB265
+P 8150 3550
+F 0 "R7" V 7943 3550 50  0000 C CNN
+F 1 "360" V 8034 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8080 3550 50  0001 C CNN
+F 3 "~" H 8150 3550 50  0001 C CNN
+	1    8150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DDFBABA
+P 8150 4550
+F 0 "R8" V 7943 4550 50  0000 C CNN
+F 1 "360" V 8034 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8080 4550 50  0001 C CNN
+F 3 "~" H 8150 4550 50  0001 C CNN
+	1    8150 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DE0182A
+P 5350 2550
+F 0 "R3" V 5143 2550 50  0000 C CNN
+F 1 "360" V 5234 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+	1    5350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DE0215E
+P 5350 3550
+F 0 "R4" V 5143 3550 50  0000 C CNN
+F 1 "360" V 5234 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 3550 50  0001 C CNN
+F 3 "~" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DE029CC
+P 5350 4500
+F 0 "R5" V 5143 4500 50  0000 C CNN
+F 1 "360" V 5234 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 4500 50  0001 C CNN
+F 3 "~" H 5350 4500 50  0001 C CNN
+	1    5350 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5DE03276
+P 8150 5500
+F 0 "R9" V 7943 5500 50  0000 C CNN
+F 1 "360" V 8034 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8080 5500 50  0001 C CNN
+F 3 "~" H 8150 5500 50  0001 C CNN
+	1    8150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DE03A1C
+P 2800 2550
+F 0 "R2" V 2593 2550 50  0000 C CNN
+F 1 "360" V 2684 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2730 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 2550 8500 2550
+Wire Wire Line
+	8300 3550 8500 3550
+Wire Wire Line
+	8300 4550 8500 4550
+Wire Wire Line
+	5500 2550 5700 2550
+Wire Wire Line
+	5500 3550 5700 3550
+Wire Wire Line
+	5500 4500 5700 4500
+Wire Wire Line
+	8300 5500 8500 5500
+Wire Wire Line
+	2950 2550 3150 2550
+Wire Wire Line
+	2950 3550 3150 3550
+Wire Wire Line
+	2950 4500 3150 4500
+Wire Wire Line
+	3000 5500 3200 5500
+$Comp
+L power:+5V #PWR03
+U 1 1 5DEB8925
+P 2400 2550
+F 0 "#PWR03" H 2400 2400 50  0001 C CNN
+F 1 "+5V" H 2415 2723 50  0000 C CNN
+F 2 "" H 2400 2550 50  0001 C CNN
+F 3 "" H 2400 2550 50  0001 C CNN
+	1    2400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5DEBB067
+P 4950 2550
+F 0 "#PWR09" H 4950 2400 50  0001 C CNN
+F 1 "+5V" H 4965 2723 50  0000 C CNN
+F 2 "" H 4950 2550 50  0001 C CNN
+F 3 "" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR010
+U 1 1 5DEBBE5D
+P 4950 3550
+F 0 "#PWR010" H 4950 3400 50  0001 C CNN
+F 1 "+5V" H 4965 3723 50  0000 C CNN
+F 2 "" H 4950 3550 50  0001 C CNN
+F 3 "" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5DEBC836
+P 4950 4500
+F 0 "#PWR011" H 4950 4350 50  0001 C CNN
+F 1 "+5V" H 4965 4673 50  0000 C CNN
+F 2 "" H 4950 4500 50  0001 C CNN
+F 3 "" H 4950 4500 50  0001 C CNN
+	1    4950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5DEBDDC7
+P 7750 2550
+F 0 "#PWR014" H 7750 2400 50  0001 C CNN
+F 1 "+5V" H 7765 2723 50  0000 C CNN
+F 2 "" H 7750 2550 50  0001 C CNN
+F 3 "" H 7750 2550 50  0001 C CNN
+	1    7750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR015
+U 1 1 5DEBE8BB
+P 7750 3550
+F 0 "#PWR015" H 7750 3400 50  0001 C CNN
+F 1 "+5V" H 7765 3723 50  0000 C CNN
+F 2 "" H 7750 3550 50  0001 C CNN
+F 3 "" H 7750 3550 50  0001 C CNN
+	1    7750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 5DEBF15C
+P 7750 4550
+F 0 "#PWR016" H 7750 4400 50  0001 C CNN
+F 1 "+5V" H 7765 4723 50  0000 C CNN
+F 2 "" H 7750 4550 50  0001 C CNN
+F 3 "" H 7750 4550 50  0001 C CNN
+	1    7750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2550 2650 2550
+Wire Wire Line
+	4950 2550 5200 2550
+Wire Wire Line
+	4950 3550 5200 3550
+Wire Wire Line
+	4950 4500 5200 4500
+Wire Wire Line
+	7750 5500 8000 5500
+Wire Wire Line
+	7750 2550 8000 2550
+Wire Wire Line
+	7750 3550 8000 3550
+Wire Wire Line
+	7750 4550 8000 4550
+$Comp
+L power:+5V #PWR02
+U 1 1 5DEC9421
+P 2100 1550
+F 0 "#PWR02" H 2100 1400 50  0001 C CNN
+F 1 "+5V" V 2115 1678 50  0000 L CNN
+F 2 "" H 2100 1550 50  0001 C CNN
+F 3 "" H 2100 1550 50  0001 C CNN
+	1    2100 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DECA143
+P 1600 1250
+F 0 "#PWR01" H 1600 1000 50  0001 C CNN
+F 1 "GND" V 1600 1100 50  0000 R CNN
+F 2 "" H 1600 1250 50  0001 C CNN
+F 3 "" H 1600 1250 50  0001 C CNN
+	1    1600 1250
+	0    1    1    0   
+$EndComp
+Text GLabel 5450 6300 0    50   Input ~ 0
+Reset
+Text GLabel 2100 850  2    50   Input ~ 0
+Reset
+Text GLabel 2750 6400 0    50   Input ~ 0
+Buzzer
+Text GLabel 2100 1050 2    50   Input ~ 0
+Buzzer
+Text GLabel 1600 1550 0    50   Input ~ 0
+Band0_Led
+Text GLabel 2650 3550 0    50   Input ~ 0
+Band0_Led
+Text GLabel 1600 1450 0    50   Input ~ 0
+Band1_Led
+Text GLabel 2650 4500 0    50   Input ~ 0
+Band1_Led
+Text GLabel 1600 1350 0    50   Input ~ 0
+Band2_Led
+Text GLabel 2700 5500 0    50   Input ~ 0
+Band2_Led
+Text GLabel 2100 1450 2    50   Input ~ 0
+Band0_Event1_Led
+Text GLabel 6000 2550 2    50   Input ~ 0
+Band0_Event1_Led
+Text GLabel 6000 3550 2    50   Input ~ 0
+Band0_Event2_Led
+Text GLabel 2100 1350 2    50   Input ~ 0
+Band0_Event2_Led
+Text GLabel 6000 4500 2    50   Input ~ 0
+Band0_Event3_Led
+Text GLabel 2100 1250 2    50   Input ~ 0
+Band0_Event3_Led
+Text GLabel 7750 5500 0    50   Input ~ 0
+TxInhibit_Led
+Text GLabel 8800 2550 2    50   Input ~ 0
+Band1_Event1_Led
+Text GLabel 1600 850  0    50   Input ~ 0
+Band1_Event1_Led
+Text GLabel 8800 3550 2    50   Input ~ 0
+Band1_Event2_Led
+Text GLabel 1600 950  0    50   Input ~ 0
+Band1_Event2_Led
+Text GLabel 8800 4550 2    50   Input ~ 0
+Band1_Event3_Led
+Text GLabel 1600 1050 0    50   Input ~ 0
+Band1_Event3_Led
+$Comp
+L power:GND #PWR06
+U 1 1 5DF2E7D6
+P 3450 3550
+F 0 "#PWR06" H 3450 3300 50  0001 C CNN
+F 1 "GND" H 3455 3377 50  0000 C CNN
+F 2 "" H 3450 3550 50  0001 C CNN
+F 3 "" H 3450 3550 50  0001 C CNN
+	1    3450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5DF2F076
+P 3450 4500
+F 0 "#PWR07" H 3450 4250 50  0001 C CNN
+F 1 "GND" H 3455 4327 50  0000 C CNN
+F 2 "" H 3450 4500 50  0001 C CNN
+F 3 "" H 3450 4500 50  0001 C CNN
+	1    3450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5DF2F980
+P 3500 5500
+F 0 "#PWR08" H 3500 5250 50  0001 C CNN
+F 1 "GND" H 3505 5327 50  0000 C CNN
+F 2 "" H 3500 5500 50  0001 C CNN
+F 3 "" H 3500 5500 50  0001 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 8200 7650 0    50   ~ 0
+19th May 2019
+Text Notes 10600 7650 0    50   ~ 0
+1.4
+Text Notes 7400 7500 0    50   ~ 0
+K3S Transverter Control Indicator Panel
+$Comp
+L power:GND #PWR05
+U 1 1 5CE1D15E
+P 3450 2550
+F 0 "#PWR05" H 3450 2300 50  0001 C CNN
+F 1 "GND" H 3455 2377 50  0000 C CNN
+F 2 "" H 3450 2550 50  0001 C CNN
+F 3 "" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5CE33250
+P 8800 5500
+F 0 "#PWR017" H 8800 5250 50  0001 C CNN
+F 1 "GND" H 8805 5327 50  0000 C CNN
+F 2 "" H 8800 5500 50  0001 C CNN
+F 3 "" H 8800 5500 50  0001 C CNN
+	1    8800 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 950  2    50   Input ~ 0
+TxInhibit_Led
+Text GLabel 2100 1150 2    50   Input ~ 0
+PTT_Led
+$Comp
+L Device:LED D8
+U 1 1 5CE57899
+P 5850 5500
+F 0 "D8" H 5843 5245 50  0000 C CNN
+F 1 "PTT" H 5843 5336 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5850 5500 50  0001 C CNN
+F 3 "~" H 5850 5500 50  0001 C CNN
+	1    5850 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5CE5C7C4
+P 6000 5500
+F 0 "#PWR013" H 6000 5250 50  0001 C CNN
+F 1 "GND" H 6005 5327 50  0000 C CNN
+F 2 "" H 6000 5500 50  0001 C CNN
+F 3 "" H 6000 5500 50  0001 C CNN
+	1    6000 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 5500 0    50   Input ~ 0
+PTT_Led
+$Comp
+L power:+5V #PWR04
+U 1 1 5CE20D67
+P 2750 6200
+F 0 "#PWR04" H 2750 6050 50  0001 C CNN
+F 1 "+5V" H 2765 6373 50  0000 C CNN
+F 2 "" H 2750 6200 50  0001 C CNN
+F 3 "" H 2750 6200 50  0001 C CNN
+	1    2750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 5D7215D7
+P 1800 1150
+F 0 "J1" H 1850 1667 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 1850 1576 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 1800 1150 50  0001 C CNN
+F 3 "~" H 1800 1150 50  0001 C CNN
+	1    1800 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 1150
+$Comp
+L Device:R R1
+U 1 1 5D4E3A92
+P 2800 3550
+F 0 "R1" V 2593 3550 50  0000 C CNN
+F 1 "360" V 2684 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2730 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D4E4037
+P 2800 4500
+F 0 "R10" V 2593 4500 50  0000 C CNN
+F 1 "360" V 2684 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2730 4500 50  0001 C CNN
+F 3 "~" H 2800 4500 50  0001 C CNN
+	1    2800 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5D4E446C
+P 2850 5500
+F 0 "R11" V 2643 5500 50  0000 C CNN
+F 1 "360" V 2734 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2780 5500 50  0001 C CNN
+F 3 "~" H 2850 5500 50  0001 C CNN
+	1    2850 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5D1297FD
+P 5550 5500
+F 0 "R12" V 5343 5500 50  0000 C CNN
+F 1 "360" V 5434 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5480 5500 50  0001 C CNN
+F 3 "~" H 5550 5500 50  0001 C CNN
+	1    5550 5500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
