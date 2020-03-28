@@ -10,4 +10,8 @@ called Bounce2 and be downloaded from https://github.com/thomasfredericks/Bounce
 The unit has also been designed so that when the VSWR trip is pulled to ground the unit goes into a disabled state
 stopping the transmitter and sounding a buzzer until the unit is reset. 
 
-There are two board the main board and an indicator board.  
+There are two boards the main board and an indicator board.  
+
+
+For further detaisl see : 
+https://m0wgf.blogspot.com/2019/12/dual-transverter-if-switch-and.html 
